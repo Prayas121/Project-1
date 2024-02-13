@@ -4,10 +4,14 @@
   }
   
   body {
-    background-color: rebeccapurple;
+    background-color:black;
     text-align: center;
   }
   
+h1{
+  color: white;
+}
+
   .container {
     height: 70vh;
     display: flex;
@@ -28,8 +32,8 @@
   .box {
     height: 30%;
     width: 30%;
-    background-color: black;
-    color: white;
+    background-color:white;
+    color: brown;
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
@@ -46,7 +50,7 @@
   }
   
   #New-btn {
-    padding: 20px 40px;
+    padding: 4cap 40px;
     border-radius: 1rem;
     font-size: 19px;
     background-color: black;
@@ -55,12 +59,12 @@
   }
   
   #msg {
-    color: black;
+    color: white;
     font-size: 23px;
   }
   
   .msg-c {
-    height: 90px;
+    height: 120px;
   }
   
   .hide {
